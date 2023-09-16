@@ -6,7 +6,6 @@ function App() {
   const [todos, setTodos] = useState([]);
 
   function deleteHandler(id) {
-    console.log("id", id)
     const newList = todos.filter((item) => {
       return (
         item.id !== id

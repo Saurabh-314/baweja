@@ -1,0 +1,77 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.input-field {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+}
+input {
+  margin: 5px;
+  padding: 10px;
+  width: 325px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 27px;
+  font-size: 20px;
+}
+.add-btn {
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 100px;
+  height: 46px;
+}
+.todo-container {
+  position: absolute;
+  background-color: lightgray;
+  width: 70%;
+  left: 172px;
+}
+.list-item {
+  margin: 4px 5px 5px 20px;
+  padding: 11px;
+  border-bottom: 1px solid black;
+}
+.list-item:hover {
+  margin: 4px 5px 5px 20px;
+  padding: 11px;
+  border-bottom: 1px solid black;
+  background-color: aqua;
+  transition: 0.7s ease-in-out;
+  cursor: pointer;
+}
+.item-id{
+  margin-right: 15px;
+}
+.action-btn {
+  position: absolute;
+  right: 10px;
+  margin: -31px -5px 0px 0px;
+}
+.check-box{
+  margin-right: 20px;
+}
+.dlt-btn {
+  position: absolute;
+  right: 50px;
+  top: 5px;
+  padding: 5px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.dlt-btn:hover{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}

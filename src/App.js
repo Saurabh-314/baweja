@@ -3,7 +3,6 @@ import './App.css';
 import ListTodo from './components/ListTodo';
 
 function App() {
-  // const [todoInput, setTodoInput] = useState("");
   const [todos, setTodos] = useState([]);
 
   function deleteHandler(id) {
@@ -21,7 +20,6 @@ function App() {
       fetch('https://jsonplaceholder.typicode.com/todos')
         .then((response) => response.json())
         .then((json) => {
-          console.log(json);
           setTodos(json)
         });
     }
